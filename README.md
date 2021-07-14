@@ -4,7 +4,7 @@
 
 2. Перейти в папку test4: cd test4
 
-3. Запустить docker compose с несколькими контейнерами: sudo docker-compose up --scale web=5 
+3. Запустить docker compose с несколькими контейнерами: sudo docker-compose up --scale web=5 -d 
 
 4. Проверить порты контейнеров: sudo docker ps
 
